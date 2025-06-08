@@ -28,8 +28,24 @@ console.log(booleanIsLoggedIn)
  let stringNumber = String(someNumber)
  console.log(stringNumber)
  console.log(typeof stringNumber)
+
+ //************************** Operations **************************
+ let value=3
+ let negValue = -value
+ console.log(negValue)
  
+ let str1 = "hello"
+ let str2 = "hitesh"
 
+ let str3 = str1 + str2
+ console.log(str3)
 
+ console.log("1" + 2)
+ console.log(1 + "2")
+ console.log("1" + 2 + 2) //By above logic it should be 14 ie 2+2=4 and 1 concatenated with 4 gives 14 , but it gives  output as 122
+ console.log(1 + 2 + "2") //By the above logic it should be 122 , but it gives output as 32 , 1+2=3 and 3 concatenated with 2 gives 32 , precedence  role
+
+console.log(+true)   //This gives output as 1
+console.log(+"")   //Empty parenthesis gives 0
 
 
