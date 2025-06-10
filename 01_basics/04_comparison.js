@@ -15,3 +15,4 @@ console.log("3" === 3) //This will not only check if the numbers are equal but w
 
 
 
+
